@@ -1,0 +1,315 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    /* height: 100%;
+    width: 100%; */
+    /* position: absolute; */
+}
+
+#dis{
+    /* position: absolute; */
+    margin-top: 0px;
+    display: flex;
+    font-size: 25px;
+    margin-left: 500px;
+    color: rgb(122, 122, 121);
+}
+
+#flat{
+    /* position: absolute; */
+    display: flex;
+    margin-top: 20px;
+    margin-left: 510px;
+    font-size: 50px;
+    color: rgb(99, 99, 98);
+}
+#price{
+    display: flex;
+    /* position: absolute; */
+    margin-left: 620px;
+    margin-top: 70px;
+    font-size: 50px;
+    color: rgb(37, 37, 37);
+}
+
+.card{
+    align-items: center;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    /* overflow: hidden; */
+    /* background-color: aquamarine; */
+    
+}
+.card1{
+    
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 15px;
+    /* height: 500px;
+    width: 300px; */
+    background-color: whitesmoke;
+    /* overflow: hidden; */
+    transition: transform .2s;
+}
+.card1:hover{
+    transform: scale(1.2);
+}
+
+#pop{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100;
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 2px;
+    width: 90px;
+    margin-left: 100px;
+    margin-top: -8px;
+    background-color: rgb(248, 246, 246);
+    color: rgb(233, 174, 65);
+}
+.card2{
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 15px;
+    height: 500px;
+    width: 300px;
+    background-color: rgb(240, 234, 234);
+    transition: transform .2s;
+   
+}
+.card2:hover{
+    transform: scale(1.2);
+}
+.card3{
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 15px;
+    height: 500px;
+    width: 300px;
+    background-color: black;
+    transition: transform .2s;
+}
+.card3:hover{
+    transform: scale(1.2);
+}
+
+#month{
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-weight: 100;
+    color: rgb(77, 74, 74);
+}
+#par{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 25px;
+    color: rgb(108, 109, 110);
+}
+.card1 h1{
+    margin-left: 25px;
+    margin-top: 30px; 
+    font-weight: 100; 
+}
+.card1 span{
+    font-size: 12px;
+}
+.card1 p{
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-size: 13px;
+    color: rgb(108, 109, 110);
+}
+#btn{
+    margin-left: 25px;
+    margin-top: 40px;
+    padding: 10px 70px;
+    border: 1px solid rgb(163, 126, 58);
+    border-radius: 10px;
+    color: rgb(247, 144, 27);
+    font-weight: bold;
+    cursor: pointer;
+}
+.card1 h4{
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.card1 h5{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+/* second line */
+#month{
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-weight: 100;
+    color: rgb(77, 74, 74);
+}
+#par{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 25px;
+    color: rgb(108, 109, 110);
+}
+.card2 h1{
+    margin-left: 25px;
+    margin-top: 30px; 
+    font-weight: 100; 
+}
+.card2 span{
+    font-size: 12px;
+}
+.card2 p{
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-size: 13px;
+    color: rgb(108, 109, 110);
+}
+#btn2{
+    margin-left: 25px;
+    margin-top: 40px;
+    padding: 10px 70px;
+    background-color:orangered;
+    border-radius: 10px;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+    cursor: pointer;
+}
+.card2 h4{
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.card2 h5{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+/* Third card */
+
+#month3{
+    color: #ffffff;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-weight: 100;
+}
+#par{
+    color: rgb(108, 109, 110);
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.card3 h1{
+    color: white;
+    margin-left: 25px;
+    margin-top: 30px; 
+    font-weight: 100; 
+}
+.card3 span{
+    color: white;
+    font-size: 12px;
+}
+.card3 p{
+    color: white;
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-size: 13px;
+    color: rgb(108, 109, 110);
+}
+#btn3{
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 40px;
+    padding: 10px 70px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    background-color: black;
+    font-weight: bold;
+    color: orangered;
+}
+.card3 h4{
+    color: white;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.card3 h5{
+    color: rgb(108, 109, 110);
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.footer{
+    justify-content: space-evenly;
+    align-items: center;
+    /* display: flex; */
+    position: absolute;
+    border: 1px solid rgb(196, 195, 195);
+    background-color: rgb(244, 244, 245);
+    border-radius: 10px;
+    /* height: 100px; */
+    /* width: 88%; */
+    left: 75px;
+    /* margin-top: 800px; */
+   /* overflow: hidden; */
+   margin: auto;
+ 
+}
+.footer .ft h1{
+    position: relative;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+.footer .ft p{
+    margin-top: 10px;
+}
+#bt{
+    cursor: pointer;
+    position: relative;
+    left: 6%;
+    margin-top: 8px;
+    padding: 10px 70px;
+    border-radius: 10px;
+    background-color: black;
+    font-weight: bold;
+    color: orangered;
+    transition: transform .2s;
+}
+#bt:hover{
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1024px) {
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 120px;
+    }
+  }
